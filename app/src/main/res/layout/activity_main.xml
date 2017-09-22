@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context="com.yqq.rxjavastudy.MainActivity">
+
+    <Button
+        android:onClick="doHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helloword rxjava"
+       />
+
+    <Button
+        android:onClick="doJust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just"
+
+        />
+
+
+    <Button
+        android:onClick="doPassObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PassObject"
+
+        />
+
+
+    <Button
+        android:onClick="doFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="doFrom"
+
+        />
+
+
+
+    <Button
+        android:onClick="doThreadControll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="线程控制"
+
+        />
+
+
+    <Button
+        android:onClick="doMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map变换"
+
+        />
+
+    <Button
+        android:onClick="doflatMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flatMap变换"
+
+        />
+
+    <Button
+        android:onClick="doManyThreadSeitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多次线程切换"
+
+        />
+
+
+
+</LinearLayout>
